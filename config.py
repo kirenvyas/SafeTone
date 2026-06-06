@@ -26,10 +26,10 @@ class Config:
     music_folder: str = field(
         default_factory=lambda: os.environ.get(
             "VOICE_ASSISTANT_MUSIC_FOLDER",
-            r"D:\Music",
+            r"D:\Music", #'''specify your music folder path here'''
         )
     )
-
+'''#you can also carefully change these variable according to your need '''
     listen_timeout: float = 4.0
     phrase_time_limit: float = 8.0
     ambient_duration: float = 1.0
