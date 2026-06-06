@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / editor folders
+.idea/
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.spec
+
+# Logs and runtime files
+*.log
+assistant.log
+temp_command.wav
+
+# Databases and voice data
+users.db
+voiceprints/
+pretrained_models/
+
+# Node modules (not used by the Python app but present in template)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Reports and large binary assets
+sem6_project_1.pdf
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
